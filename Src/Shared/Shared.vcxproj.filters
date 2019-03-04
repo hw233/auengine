@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{0aa2baee-0e4f-4040-b061-ac6578a5b9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{1121c328-f27b-4964-ba64-76f96d1ccd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{364f0aad-9c39-492d-86a2-623842c18db1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\Shared\Database\CreateInterface.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Database\Database.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Database\MySQLDatabase.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\CircularBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketLinux.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketMgrLinux.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketMgrWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketOpsLinux.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketOpsWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Network\SocketWin32.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicBoolean.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicCounter.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicFloat.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicULong.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\ConditionVariable.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\Mutex.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\Threading\ThreadPool.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Shared\CrashHandler.cpp" />
+    <ClCompile Include="..\..\Src\Shared\CThreads.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Log.cpp" />
+    <ClCompile Include="..\..\Src\Shared\MersenneTwister.cpp" />
+    <ClCompile Include="..\..\Src\Shared\PerformanceCounter.cpp" />
+    <ClCompile Include="..\..\Src\Shared\printStackTrace.cpp" />
+    <ClCompile Include="..\..\Src\Shared\StackWalker.cpp" />
+    <ClCompile Include="..\..\Src\Shared\SysInfo.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\Shared\Database\Database.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Database\DatabaseEnv.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Database\Field.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Database\MySQLDatabase.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\CircularBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\ListenSocketLinux.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\ListenSocketWin32.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\SocketDefines.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\SocketMgrLinux.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\SocketMgrWin32.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Network\SocketOps.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicBoolean.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicCounter.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicFloat.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicULong.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\ConditionVariable.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\Guard.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\LockedQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\Mutex.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\Queue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\RWLock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\Threading.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\ThreadPool.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Threading\ThreadStarter.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Shared\Array.h" />
+    <ClInclude Include="..\..\Src\Shared\CallBack.h" />
+    <ClInclude Include="..\..\Src\Shared\CircularQueue.h" />
+    <ClInclude Include="..\..\Src\Shared\Common.h" />
+    <ClInclude Include="..\..\Src\Shared\CrashHandler.h" />
+    <ClInclude Include="..\..\Src\Shared\CThreads.h" />
+    <ClInclude Include="..\..\Src\Shared\Errors.h" />
+    <ClInclude Include="..\..\Src\Shared\Log.h" />
+    <ClInclude Include="..\..\Src\Shared\MersenneTwister.h" />
+    <ClInclude Include="..\..\Src\Shared\PerformanceCounter.hpp" />
+    <ClInclude Include="..\..\Src\Shared\printStackTrace.h" />
+    <ClInclude Include="..\..\Src\Shared\Singleton.h" />
+    <ClInclude Include="..\..\Src\Shared\StackWalker.h" />
+    <ClInclude Include="..\..\Src\Shared\SysInfo.hpp" />
+    <ClInclude Include="..\..\Src\Shared\Util.h" />
+    <ClInclude Include="..\..\Src\Shared\auConfig.h" />
+  </ItemGroup>
+</Project>

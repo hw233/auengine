@@ -1,0 +1,70 @@
+﻿生成启动时间为 2015/3/25 星期三 16:51:59。
+     1>项目“E:\svn_project\AuEngine\Src\server\AuEngine.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“../../bin/Debug/servercommon.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Lua/include /I../Shared /I../Tinyxml /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../bin/Debug/" /Fd"../../bin/Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt msgpackager.cpp
+         msgpackager.cpp
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../Res/AuEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../Dep/lib Ws2_32.lib Dbghelp.lib libmysql_debug_win32.lib libcurl.lib libcurld_imp.lib lua.lib memcached.lib tinyxml.lib Shared.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../../bin/Debug/AuEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\svn_project\AuEngine\Res\AuEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../Res/AuEngine.lib" /MACHINE:X86 ../../bin/Debug/analytical_param.obj
+         ../../bin/Debug/aulistensock.obj
+         ../../bin/Debug/auxiliary_kit.obj
+         ../../bin/Debug/basesocket.obj
+         ../../bin/Debug/comm_lua_module.obj
+         ../../bin/Debug/config_module.obj
+         ../../bin/Debug/config_struct.obj
+         ../../bin/Debug/doublemsgqueue.obj
+         ../../bin/Debug/gameconsole.obj
+         ../../bin/Debug/gameconsolethread.obj
+         ../../bin/Debug/gdata.obj
+         ../../bin/Debug/luathread.obj
+         ../../bin/Debug/lua_engine.obj
+         ../../bin/Debug/lua_export.obj
+         ../../bin/Debug/lua_module.obj
+         ../../bin/Debug/main.obj
+         ../../bin/Debug/memcached_module.obj
+         ../../bin/Debug/memcached_test.obj
+         ../../bin/Debug/memcached_thread.obj
+         ../../bin/Debug/messageconfig_reader.obj
+         ../../bin/Debug/message_queue.obj
+         ../../bin/Debug/modulebase.obj
+         ../../bin/Debug/modulemanager.obj
+         ../../bin/Debug/monitor_module.obj
+         ../../bin/Debug/monitor_thread.obj
+         ../../bin/Debug/msgpackager.obj
+         ../../bin/Debug/msg_manager.obj
+         ../../bin/Debug/msgpackage.obj
+         ../../bin/Debug/mysql_module.obj
+         ../../bin/Debug/mysql_thread.obj
+         ../../bin/Debug/netmsg_new.obj
+         ../../bin/Debug/oper_member.obj
+         ../../bin/Debug/packager_interface.obj
+         ../../bin/Debug/param_type_map.obj
+         ../../bin/Debug/connsocket.obj
+         ../../bin/Debug/launcher.obj
+         ../../bin/Debug/QueueNlock.obj
+         ../../bin/Debug/robots.obj
+         ../../bin/Debug/robotthread.obj
+         ../../bin/Debug/sendmodule.obj
+         ../../bin/Debug/sendthread.obj
+         ../../bin/Debug/sockmgr.obj
+         ../../bin/Debug/sockmsgnode.obj
+         ../../bin/Debug/servermap.obj
+         ../../bin/Debug/testcase.obj
+         ../../bin/Debug/timeinterface.obj
+         ../../bin/Debug/timer.obj
+         ../../bin/Debug/timerinfo.obj
+         ../../bin/Debug/tolua.obj
+         ../../bin/Debug/tolua_event.obj
+         ../../bin/Debug/tolua_is.obj
+         ../../bin/Debug/tolua_map.obj
+         ../../bin/Debug/tolua_push.obj
+         ../../bin/Debug/tolua_to.obj
+     1>LINK : fatal error LNK1168: 无法打开 ../../Res/AuEngine.exe 进行写入
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(268,5): error MSB6006: “link.exe”已退出，代码为 1168。
+     1>已完成生成项目“E:\svn_project\AuEngine\Src\server\AuEngine.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.03

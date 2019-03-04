@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4d522d7a-09da-4b7b-807a-8c1c6142d282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\luaexport">
+      <UniqueIdentifier>{9e4e1e02-b6e6-45ca-a693-c014e6cd2432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\tolua++">
+      <UniqueIdentifier>{89030d01-b2d9-44ba-919a-293c36f25ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Launcher">
+      <UniqueIdentifier>{31cfcce4-8dc4-4a9a-93b3-f645582eeb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaModule">
+      <UniqueIdentifier>{e8498f76-41de-4fb2-b777-31c8a227cfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Network">
+      <UniqueIdentifier>{42e44c77-df08-4534-83fe-bb20ba0b923d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Module">
+      <UniqueIdentifier>{31592716-d5cc-4e92-8d9e-b3834d5f19d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SendModule">
+      <UniqueIdentifier>{8fa5c69a-d6f8-43a2-b704-4a0ca130fc95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigModule">
+      <UniqueIdentifier>{1c3eeb89-668d-4bbb-8b79-6200025c103c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Timer">
+      <UniqueIdentifier>{e9f7d4e7-8cc8-4ba6-a814-9936abca2486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\kit">
+      <UniqueIdentifier>{34c74d38-fb99-4b6a-b330-ba8165ed457d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Gdata">
+      <UniqueIdentifier>{4e436c66-e0f5-49a9-a54f-44167c43ebfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DatabaseModule">
+      <UniqueIdentifier>{d12c97fd-1141-46ac-846c-aa9897acd10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DatabaseModule\MysqlModule">
+      <UniqueIdentifier>{f1fdb5a1-c6f2-4a01-be7f-ecc2ae9865a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RobotsModule">
+      <UniqueIdentifier>{896435d1-1ac4-48a0-b616-489baee4372c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\TestMacro">
+      <UniqueIdentifier>{e3760f6f-fb69-4d60-90e8-1a61ea80b328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameConsoleModule">
+      <UniqueIdentifier>{fef0291d-46b1-42b7-b5b5-033317e65f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemcachedModule">
+      <UniqueIdentifier>{2884eb47-e593-44bc-a195-18797f3383b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonitorModule">
+      <UniqueIdentifier>{029e516b-8866-44a1-947d-ac2f7d5747d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tolua_to.c">
+      <Filter>Common\tolua++</Filter>
+    </ClCompile>
+    <ClCompile Include="tolua_push.c">
+      <Filter>Common\tolua++</Filter>
+    </ClCompile>
+    <ClCompile Include="tolua_map.c">
+      <Filter>Common\tolua++</Filter>
+    </ClCompile>
+    <ClCompile Include="tolua_is.c">
+      <Filter>Common\tolua++</Filter>
+    </ClCompile>
+    <ClCompile Include="tolua_event.c">
+      <Filter>Common\tolua++</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_export.cpp">
+      <Filter>Common\luaexport</Filter>
+    </ClCompile>
+    <ClCompile Include="tolua.cpp">
+      <Filter>Common\luaexport</Filter>
+    </ClCompile>
+    <ClCompile Include="modulebase.cpp">
+      <Filter>Common\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="modulemanager.cpp">
+      <Filter>Common\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_module.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="analytical_param.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="param_type_map.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="config_module.cpp">
+      <Filter>ConfigModule</Filter>
+    </ClCompile>
+    <ClCompile Include="messageconfig_reader.cpp">
+      <Filter>ConfigModule</Filter>
+    </ClCompile>
+    <ClCompile Include="basesocket.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="msgpackage.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_engine.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_manager.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_lua_module.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="netmsg_new.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="msgpackager.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="packager_interface.cpp">
+      <Filter>Common\luaexport</Filter>
+    </ClCompile>
+    <ClCompile Include="config_struct.cpp">
+      <Filter>ConfigModule</Filter>
+    </ClCompile>
+    <ClCompile Include="luathread.cpp">
+      <Filter>LuaModule</Filter>
+    </ClCompile>
+    <ClCompile Include="launcher.cpp">
+      <Filter>Common\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="robots.cpp">
+      <Filter>RobotsModule</Filter>
+    </ClCompile>
+    <ClCompile Include="robotthread.cpp">
+      <Filter>RobotsModule</Filter>
+    </ClCompile>
+    <ClCompile Include="sendmodule.cpp">
+      <Filter>SendModule</Filter>
+    </ClCompile>
+    <ClCompile Include="sendthread.cpp">
+      <Filter>SendModule</Filter>
+    </ClCompile>
+    <ClCompile Include="connsocket.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="doublemsgqueue.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="message_queue.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="sockmsgnode.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="aulistensock.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="servermap.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="sockmgr.cpp">
+      <Filter>Common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="timeinterface.cpp">
+      <Filter>Common\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql_module.cpp">
+      <Filter>DatabaseModule\MysqlModule</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql_thread.cpp">
+      <Filter>DatabaseModule\MysqlModule</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueNlock.cpp">
+      <Filter>Common\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="gdata.cpp">
+      <Filter>Common\Gdata</Filter>
+    </ClCompile>
+    <ClCompile Include="memcached_test.cpp">
+      <Filter>MemcachedModule</Filter>
+    </ClCompile>
+    <ClCompile Include="memcached_module.cpp">
+      <Filter>MemcachedModule</Filter>
+    </ClCompile>
+    <ClCompile Include="oper_member.cpp">
+      <Filter>MemcachedModule</Filter>
+    </ClCompile>
+    <ClCompile Include="memcached_thread.cpp">
+      <Filter>MemcachedModule</Filter>
+    </ClCompile>
+    <ClCompile Include="gameconsole.cpp">
+      <Filter>GameConsoleModule</Filter>
+    </ClCompile>
+    <ClCompile Include="gameconsolethread.cpp">
+      <Filter>GameConsoleModule</Filter>
+    </ClCompile>
+    <ClCompile Include="timerinfo.cpp">
+      <Filter>Common\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Common\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="testcase.cpp">
+      <Filter>Common\TestMacro</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor_module.cpp">
+      <Filter>MonitorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor_thread.cpp">
+      <Filter>MonitorModule</Filter>
+    </ClCompile>
+    <ClCompile Include="auxiliary_kit.cpp">
+      <Filter>Common\kit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tolua_event.h">
+      <Filter>Common\tolua++</Filter>
+    </ClInclude>
+    <ClInclude Include="tolua++.h">
+      <Filter>Common\tolua++</Filter>
+    </ClInclude>
+    <ClInclude Include="tolua.h">
+      <Filter>Common\luaexport</Filter>
+    </ClInclude>
+    <ClInclude Include="modulebase.h">
+      <Filter>Common\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="modulemanager.h">
+      <Filter>Common\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_module.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="analytical_param.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="param_type_map.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="config_module.h">
+      <Filter>ConfigModule</Filter>
+    </ClInclude>
+    <ClInclude Include="messageconfig_reader.h">
+      <Filter>ConfigModule</Filter>
+    </ClInclude>
+    <ClInclude Include="basesocket.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="msgpackage.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_engine.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_manager.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_lua_module.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="netmsg_new.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="msgpackager.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="packager_interface.h">
+      <Filter>Common\luaexport</Filter>
+    </ClInclude>
+    <ClInclude Include="config_struct.h">
+      <Filter>ConfigModule</Filter>
+    </ClInclude>
+    <ClInclude Include="luathread.h">
+      <Filter>LuaModule</Filter>
+    </ClInclude>
+    <ClInclude Include="launcher.h">
+      <Filter>Common\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="robots.h">
+      <Filter>RobotsModule</Filter>
+    </ClInclude>
+    <ClInclude Include="robotthread.h">
+      <Filter>RobotsModule</Filter>
+    </ClInclude>
+    <ClInclude Include="sendmodule.h">
+      <Filter>SendModule</Filter>
+    </ClInclude>
+    <ClInclude Include="sendthread.h">
+      <Filter>SendModule</Filter>
+    </ClInclude>
+    <ClInclude Include="connsocket.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="doublemsgqueue.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="message_queue.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sockmsgnode.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="aulistensock.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="servermap.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sockmgr.h">
+      <Filter>Common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="timeinterface.h">
+      <Filter>Common\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_module.h">
+      <Filter>DatabaseModule\MysqlModule</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_tech.hpp">
+      <Filter>Common\kit</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueNlock.h">
+      <Filter>Common\kit</Filter>
+    </ClInclude>
+    <ClInclude Include="gdata.h">
+      <Filter>Common\Gdata</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_thread.h">
+      <Filter>DatabaseModule\MysqlModule</Filter>
+    </ClInclude>
+    <ClInclude Include="memcached_test.h">
+      <Filter>MemcachedModule</Filter>
+    </ClInclude>
+    <ClInclude Include="memcached_module.h">
+      <Filter>MemcachedModule</Filter>
+    </ClInclude>
+    <ClInclude Include="oper_member.h">
+      <Filter>MemcachedModule</Filter>
+    </ClInclude>
+    <ClInclude Include="memcached_thread.h">
+      <Filter>MemcachedModule</Filter>
+    </ClInclude>
+    <ClInclude Include="testmacro.h">
+      <Filter>Common\TestMacro</Filter>
+    </ClInclude>
+    <ClInclude Include="gameconsole.h">
+      <Filter>GameConsoleModule</Filter>
+    </ClInclude>
+    <ClInclude Include="gameconsolethread.h">
+      <Filter>GameConsoleModule</Filter>
+    </ClInclude>
+    <ClInclude Include="version_info.h">
+      <Filter>Common\kit</Filter>
+    </ClInclude>
+    <ClInclude Include="timerinfo.h">
+      <Filter>Common\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Common\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="testcase.h">
+      <Filter>Common\TestMacro</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor_module.h">
+      <Filter>MonitorModule</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor_thread.h">
+      <Filter>MonitorModule</Filter>
+    </ClInclude>
+    <ClInclude Include="auxiliary_kit.h">
+      <Filter>Common\kit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="all.export">
+      <Filter>Common\luaexport</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+﻿Build started 2015/3/24 星期二 16:11:46.
+     1>Project "E:\svn_project\AuEngine\linux\build\Lua\Lua.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\svn_project\AuEngine\linux\build\Lua\Debug\".
+       InitializeBuildStatus:
+         Creating "Lua.dir\Debug\Lua.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/svn_project/AuEngine/linux/Lua/CMakeLists.txt
+         CMake does not need to re-run because E:\svn_project\AuEngine\linux\build\Lua\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\svn_project\AuEngine\linux\..\Src\Lua\include /IE:\svn_project\AuEngine\linux\..\Src\Lua\src /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D X64 /D _CRT_SECURE_NO_WARNINGS /D HAVE_CONFIG_H /D "CONFDIR=\"\"" /D "PREFIX=\"\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Lua.dir\Debug\\" /Fd"Lua.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt  -bigobj E:\svn_project\AuEngine\Src\Lua\src\lapi.c E:\svn_project\AuEngine\Src\Lua\src\lauxlib.c E:\svn_project\AuEngine\Src\Lua\src\lbaselib.c E:\svn_project\AuEngine\Src\Lua\src\lcode.c E:\svn_project\AuEngine\Src\Lua\src\ldblib.c E:\svn_project\AuEngine\Src\Lua\src\ldebug.c E:\svn_project\AuEngine\Src\Lua\src\ldo.c E:\svn_project\AuEngine\Src\Lua\src\ldump.c E:\svn_project\AuEngine\Src\Lua\src\lfunc.c E:\svn_project\AuEngine\Src\Lua\src\lgc.c E:\svn_project\AuEngine\Src\Lua\src\linit.c E:\svn_project\AuEngine\Src\Lua\src\liolib.c E:\svn_project\AuEngine\Src\Lua\src\llex.c E:\svn_project\AuEngine\Src\Lua\src\lmathlib.c E:\svn_project\AuEngine\Src\Lua\src\lmem.c E:\svn_project\AuEngine\Src\Lua\src\loadlib.c E:\svn_project\AuEngine\Src\Lua\src\lobject.c E:\svn_project\AuEngine\Src\Lua\src\lopcodes.c E:\svn_project\AuEngine\Src\Lua\src\loslib.c E:\svn_project\AuEngine\Src\Lua\src\lparser.c E:\svn_project\AuEngine\Src\Lua\src\lstate.c E:\svn_project\AuEngine\Src\Lua\src\lstring.c E:\svn_project\AuEngine\Src\Lua\src\lstrlib.c E:\svn_project\AuEngine\Src\Lua\src\ltable.c E:\svn_project\AuEngine\Src\Lua\src\ltablib.c E:\svn_project\AuEngine\Src\Lua\src\ltm.c E:\svn_project\AuEngine\Src\Lua\src\lua.c E:\svn_project\AuEngine\Src\Lua\src\luac.c E:\svn_project\AuEngine\Src\Lua\src\lundump.c E:\svn_project\AuEngine\Src\Lua\src\lvm.c E:\svn_project\AuEngine\Src\Lua\src\lzio.c E:\svn_project\AuEngine\Src\Lua\src\print.c
+         lapi.c
+         lauxlib.c
+         lbaselib.c
+         lcode.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+         lobject.c
+         lopcodes.c
+         loslib.c
+         lparser.c
+         Generating Code...
+         Compiling...
+         lstate.c
+         lstring.c
+         lstrlib.c
+         ltable.c
+         ltablib.c
+         ltm.c
+         lua.c
+         luac.c
+         lundump.c
+         lvm.c
+         lzio.c
+         print.c
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\svn_project\AuEngine\linux\build\Lua\Debug\Lua.lib" /NOLOGO Lua.dir\Debug\lapi.obj
+         Lua.dir\Debug\lauxlib.obj
+         Lua.dir\Debug\lbaselib.obj
+         Lua.dir\Debug\lcode.obj
+         Lua.dir\Debug\ldblib.obj
+         Lua.dir\Debug\ldebug.obj
+         Lua.dir\Debug\ldo.obj
+         Lua.dir\Debug\ldump.obj
+         Lua.dir\Debug\lfunc.obj
+         Lua.dir\Debug\lgc.obj
+         Lua.dir\Debug\linit.obj
+         Lua.dir\Debug\liolib.obj
+         Lua.dir\Debug\llex.obj
+         Lua.dir\Debug\lmathlib.obj
+         Lua.dir\Debug\lmem.obj
+         Lua.dir\Debug\loadlib.obj
+         Lua.dir\Debug\lobject.obj
+         Lua.dir\Debug\lopcodes.obj
+         Lua.dir\Debug\loslib.obj
+         Lua.dir\Debug\lparser.obj
+         Lua.dir\Debug\lstate.obj
+         Lua.dir\Debug\lstring.obj
+         Lua.dir\Debug\lstrlib.obj
+         Lua.dir\Debug\ltable.obj
+         Lua.dir\Debug\ltablib.obj
+         Lua.dir\Debug\ltm.obj
+         Lua.dir\Debug\lua.obj
+         Lua.dir\Debug\luac.obj
+         Lua.dir\Debug\lundump.obj
+         Lua.dir\Debug\lvm.obj
+         Lua.dir\Debug\lzio.obj
+         Lua.dir\Debug\print.obj
+     1>luac.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Lua.vcxproj -> E:\svn_project\AuEngine\linux\build\Lua\Debug\Lua.lib
+       FinalizeBuildStatus:
+         Deleting file "Lua.dir\Debug\Lua.unsuccessfulbuild".
+         Touching "Lua.dir\Debug\Lua.lastbuildstate".
+     1>Done Building Project "E:\svn_project\AuEngine\linux\build\Lua\Lua.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.74

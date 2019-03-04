@@ -1,0 +1,9 @@
+<root>
+	<msg>
+		<id>2021</id>	<!--It's a test msgid-->
+		
+		<!--arg1: client sockfd, arg2:A, arg3:B-->
+		<arg>UINT32,INT32,INT32</arg>
+		<function>CalcAandB_2021</function>
+	</msg>
+</root>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analytical_param.cpp" />
+    <ClCompile Include="aulistensock.cpp" />
+    <ClCompile Include="auxiliary_kit.cpp" />
+    <ClCompile Include="basesocket.cpp" />
+    <ClCompile Include="comm_lua_module.cpp" />
+    <ClCompile Include="config_module.cpp" />
+    <ClCompile Include="config_struct.cpp" />
+    <ClCompile Include="doublemsgqueue.cpp" />
+    <ClCompile Include="gameconsole.cpp" />
+    <ClCompile Include="gameconsolethread.cpp" />
+    <ClCompile Include="gdata.cpp" />
+    <ClCompile Include="luathread.cpp" />
+    <ClCompile Include="lua_engine.cpp" />
+    <ClCompile Include="lua_export.cpp" />
+    <ClCompile Include="lua_module.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memcached_module.cpp" />
+    <ClCompile Include="memcached_test.cpp" />
+    <ClCompile Include="memcached_thread.cpp" />
+    <ClCompile Include="messageconfig_reader.cpp" />
+    <ClCompile Include="message_queue.cpp" />
+    <ClCompile Include="modulebase.cpp" />
+    <ClCompile Include="modulemanager.cpp" />
+    <ClCompile Include="monitor_module.cpp" />
+    <ClCompile Include="monitor_thread.cpp" />
+    <ClCompile Include="msgpackager.cpp" />
+    <ClCompile Include="msg_manager.cpp" />
+    <ClCompile Include="msgpackage.cpp" />
+    <ClCompile Include="mysql_module.cpp" />
+    <ClCompile Include="mysql_thread.cpp" />
+    <ClCompile Include="netmsg_new.cpp" />
+    <ClCompile Include="oper_member.cpp" />
+    <ClCompile Include="packager_interface.cpp" />
+    <ClCompile Include="param_type_map.cpp" />
+    <ClCompile Include="connsocket.cpp" />
+    <ClCompile Include="launcher.cpp" />
+    <ClCompile Include="QueueNlock.cpp" />
+    <ClCompile Include="robots.cpp" />
+    <ClCompile Include="robotthread.cpp" />
+    <ClCompile Include="sendmodule.cpp" />
+    <ClCompile Include="sendthread.cpp" />
+    <ClCompile Include="sockmgr.cpp" />
+    <ClCompile Include="sockmsgnode.cpp" />
+    <ClCompile Include="servermap.cpp" />
+    <ClCompile Include="testcase.cpp" />
+    <ClCompile Include="timeinterface.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="timerinfo.cpp" />
+    <ClCompile Include="tolua.cpp" />
+    <ClCompile Include="tolua_event.c" />
+    <ClCompile Include="tolua_is.c" />
+    <ClCompile Include="tolua_map.c" />
+    <ClCompile Include="tolua_push.c" />
+    <ClCompile Include="tolua_to.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analytical_param.h" />
+    <ClInclude Include="aulistensock.h" />
+    <ClInclude Include="auxiliary_kit.h" />
+    <ClInclude Include="basesocket.h" />
+    <ClInclude Include="comm_lua_module.h" />
+    <ClInclude Include="config_module.h" />
+    <ClInclude Include="config_struct.h" />
+    <ClInclude Include="doublemsgqueue.h" />
+    <ClInclude Include="gameconsole.h" />
+    <ClInclude Include="gameconsolethread.h" />
+    <ClInclude Include="gdata.h" />
+    <ClInclude Include="luathread.h" />
+    <ClInclude Include="lua_engine.h" />
+    <ClInclude Include="lua_module.h" />
+    <ClInclude Include="memcached_module.h" />
+    <ClInclude Include="memcached_test.h" />
+    <ClInclude Include="memcached_thread.h" />
+    <ClInclude Include="messageconfig_reader.h" />
+    <ClInclude Include="message_queue.h" />
+    <ClInclude Include="modulebase.h" />
+    <ClInclude Include="modulemanager.h" />
+    <ClInclude Include="monitor_module.h" />
+    <ClInclude Include="monitor_thread.h" />
+    <ClInclude Include="msgpackager.h" />
+    <ClInclude Include="msg_manager.h" />
+    <ClInclude Include="msgpackage.h" />
+    <ClInclude Include="mysql_module.h" />
+    <ClInclude Include="mysql_thread.h" />
+    <ClInclude Include="netmsg_new.h" />
+    <ClInclude Include="oper_member.h" />
+    <ClInclude Include="packager_interface.h" />
+    <ClInclude Include="param_type_map.h" />
+    <ClInclude Include="connsocket.h" />
+    <ClInclude Include="QueueNlock.h" />
+    <ClInclude Include="robots.h" />
+    <ClInclude Include="robotthread.h" />
+    <ClInclude Include="safe_tech.hpp" />
+    <ClInclude Include="launcher.h" />
+    <ClInclude Include="sendmodule.h" />
+    <ClInclude Include="sendthread.h" />
+    <ClInclude Include="sockmgr.h" />
+    <ClInclude Include="sockmsgnode.h" />
+    <ClInclude Include="servermap.h" />
+    <ClInclude Include="testcase.h" />
+    <ClInclude Include="testmacro.h" />
+    <ClInclude Include="timeinterface.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="timerinfo.h" />
+    <ClInclude Include="tolua++.h" />
+    <ClInclude Include="tolua.h" />
+    <ClInclude Include="tolua_event.h" />
+    <ClInclude Include="version_info.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="all.export" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6812ED5-347E-4A42-9B96-6B4620A9AFD7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AuEngine</RootNamespace>
+    <ProjectName>servercommon</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>../../bin/$(Configuration)/</IntDir>
+    <OutDir>../../Res/</OutDir>
+    <LibraryPath>../../Dep/lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../Shared;../Tinyxml;../Lua/include;../Shared/Database;../memcached;$(IncludePath)</IncludePath>
+    <TargetName>AuEngine</TargetName>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Lua/include;../Shared;../Tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Dep/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Dbghelp.lib;libmysql_debug_win32.lib;libcurl.lib;libcurld_imp.lib;lua.lib;memcached.lib;tinyxml.lib;Shared.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>lua.lib;tinyxml.lib;Shared.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../Dep/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

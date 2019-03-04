@@ -1,0 +1,22 @@
+﻿Build started 2015/3/24 星期二 16:11:44.
+     1>Project "E:\svn_project\AuEngine\linux\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\svn_project\AuEngine\linux\build\Debug\".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/Lua/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/Memcache/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/server/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/Shared/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/svn_project/AuEngine/linux/build/Tinyxml/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "E:\svn_project\AuEngine\linux\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80

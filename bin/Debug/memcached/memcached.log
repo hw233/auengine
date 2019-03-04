@@ -1,0 +1,48 @@
+﻿生成启动时间为 2015/3/18 星期三 16:18:27。
+     1>项目“E:\svn_project\AuEngine\Src\memcached\memcached.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“../../bin/Debug/memcached/memcached.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“../../bin/Debug/memcached/memcached.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../bin/Debug/memcached/" /Fd"../../bin/Debug/memcached/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Matilda.cpp MemCacheClient.cpp ReadWriteBuffer.cpp Socket.cpp
+         Socket.cpp
+         ReadWriteBuffer.cpp
+         MemCacheClient.cpp
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(123): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(163): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(371): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(596): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(796): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(876): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(879): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>e:\svn_project\auengine\src\memcached\memcacheclient.cpp(969): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+         Matilda.cpp
+         正在生成代码...
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../bin/Debug/memcached/" /Fd"../../bin/Debug/memcached/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt sha1.c
+         sha1.c
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"../../Dep/lib/memcached.lib" /NOLOGO ../../bin/Debug/memcached/Matilda.obj
+         ../../bin/Debug/memcached/MemCacheClient.obj
+         ../../bin/Debug/memcached/ReadWriteBuffer.obj
+         ../../bin/Debug/memcached/sha1.obj
+         ../../bin/Debug/memcached/Socket.obj
+         memcached.vcxproj -> E:\svn_project\AuEngine\Src\memcached\../../Dep/lib/memcached.lib
+       FinalizeBuildStatus:
+         正在删除文件“../../bin/Debug/memcached/memcached.unsuccessfulbuild”。
+         正在对“../../bin/Debug/memcached/memcached.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\svn_project\AuEngine\Src\memcached\memcached.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.62

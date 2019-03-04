@@ -1,0 +1,78 @@
+﻿生成启动时间为 2015/3/18 星期三 16:18:27。
+     1>项目“E:\svn_project\AuEngine\Src\Shared\Shared.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“../../bin/Debug/Shared/Shared.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“../../bin/Debug/Shared/Shared.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I..\..\dep\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _TCHAR_DEFINED /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../bin/Debug/Shared/" /Fd"../../bin/Debug/Shared/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\Shared\CrashHandler.cpp ..\..\Src\Shared\CThreads.cpp ..\..\Src\Shared\Database\CreateInterface.cpp ..\..\Src\Shared\Database\Database.cpp ..\..\Src\Shared\Database\MySQLDatabase.cpp ..\..\Src\Shared\Log.cpp ..\..\Src\Shared\MersenneTwister.cpp ..\..\Src\Shared\Network\CircularBuffer.cpp ..\..\Src\Shared\Network\Socket.cpp ..\..\Src\Shared\Network\SocketLinux.cpp ..\..\Src\Shared\Network\SocketMgrLinux.cpp ..\..\Src\Shared\Network\SocketMgrWin32.cpp ..\..\Src\Shared\Network\SocketOpsLinux.cpp ..\..\Src\Shared\Network\SocketOpsWin32.cpp ..\..\Src\Shared\Network\SocketWin32.cpp ..\..\Src\Shared\PerformanceCounter.cpp ..\..\Src\Shared\printStackTrace.cpp ..\..\Src\Shared\StackWalker.cpp ..\..\Src\Shared\SysInfo.cpp ..\..\Src\Shared\Threading\AtomicBoolean.cpp ..\..\Src\Shared\Threading\AtomicCounter.cpp ..\..\Src\Shared\Threading\AtomicFloat.cpp ..\..\Src\Shared\Threading\AtomicULong.cpp ..\..\Src\Shared\Threading\ConditionVariable.cpp ..\..\Src\Shared\Threading\Mutex.cpp ..\..\Src\Shared\Threading\ThreadPool.cpp ..\..\Src\Shared\Util.cpp
+         Util.cpp
+         ThreadPool.cpp
+         Mutex.cpp
+         ConditionVariable.cpp
+         AtomicULong.cpp
+         AtomicFloat.cpp
+         AtomicCounter.cpp
+         AtomicBoolean.cpp
+         SysInfo.cpp
+         StackWalker.cpp
+         printStackTrace.cpp
+         PerformanceCounter.cpp
+         SocketWin32.cpp
+         SocketOpsWin32.cpp
+         SocketOpsLinux.cpp
+         SocketMgrWin32.cpp
+         SocketMgrLinux.cpp
+         SocketLinux.cpp
+         Socket.cpp
+         CircularBuffer.cpp
+         正在生成代码...
+         正在编译...
+         MersenneTwister.cpp
+         Log.cpp
+         MySQLDatabase.cpp
+         Database.cpp
+         CreateInterface.cpp
+         CThreads.cpp
+         CrashHandler.cpp
+         正在生成代码...
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"../../Dep/lib/Shared.lib" /NOLOGO ../../bin/Debug/Shared/CrashHandler.obj
+         ../../bin/Debug/Shared/CThreads.obj
+         ../../bin/Debug/Shared/CreateInterface.obj
+         ../../bin/Debug/Shared/Database.obj
+         ../../bin/Debug/Shared/MySQLDatabase.obj
+         ../../bin/Debug/Shared/Log.obj
+         ../../bin/Debug/Shared/MersenneTwister.obj
+         ../../bin/Debug/Shared/CircularBuffer.obj
+         ../../bin/Debug/Shared/Socket.obj
+         ../../bin/Debug/Shared/SocketLinux.obj
+         ../../bin/Debug/Shared/SocketMgrLinux.obj
+         ../../bin/Debug/Shared/SocketMgrWin32.obj
+         ../../bin/Debug/Shared/SocketOpsLinux.obj
+         ../../bin/Debug/Shared/SocketOpsWin32.obj
+         ../../bin/Debug/Shared/SocketWin32.obj
+         ../../bin/Debug/Shared/PerformanceCounter.obj
+         ../../bin/Debug/Shared/printStackTrace.obj
+         ../../bin/Debug/Shared/StackWalker.obj
+         ../../bin/Debug/Shared/SysInfo.obj
+         ../../bin/Debug/Shared/AtomicBoolean.obj
+         ../../bin/Debug/Shared/AtomicCounter.obj
+         ../../bin/Debug/Shared/AtomicFloat.obj
+         ../../bin/Debug/Shared/AtomicULong.obj
+         ../../bin/Debug/Shared/ConditionVariable.obj
+         ../../bin/Debug/Shared/Mutex.obj
+         ../../bin/Debug/Shared/ThreadPool.obj
+         ../../bin/Debug/Shared/Util.obj
+     1>SocketOpsLinux.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SocketMgrLinux.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SocketLinux.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         Shared.vcxproj -> E:\svn_project\AuEngine\Src\Shared\../../Dep/lib/Shared.lib
+       FinalizeBuildStatus:
+         正在删除文件“../../bin/Debug/Shared/Shared.unsuccessfulbuild”。
+         正在对“../../bin/Debug/Shared/Shared.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\svn_project\AuEngine\Src\Shared\Shared.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.18

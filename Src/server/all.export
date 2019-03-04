@@ -1,0 +1,138 @@
+
+$#include "tolua.h"
+$#include <string>
+
+$#include "tolua.h"
+$#include "packager_interface.h"
+$#include "robots.h"
+
+typedef signed int int32;
+typedef signed int int16;
+typedef signed int int8;
+
+typedef unsigned int uint32;
+typedef unsigned int uint16;
+typedef unsigned int uint8;
+
+//db
+class Field
+{
+public:
+	void			SetValue(char* value);
+
+	const char *	GetString();
+	float			GetFloat();
+	bool			GetBool();
+	uint8			GetUInt8();
+	int8			GetInt8();
+	uint16			GetUInt16();
+	int16			GetInt16();
+	uint32			GetUInt32();
+	int32			GetInt32();
+	uint64			GetUInt64();
+};
+
+class QueryResult
+{
+	public:
+		NextRow();
+		Delete();
+		Field* GetFieldFromCount(uint32 i);
+		uint32 GetFieldCount() const;
+		uint32 GetRowCount() const;
+};
+
+//--end db
+
+
+namespace Au
+{
+
+	void messageBegin(unsigned int playerid, unsigned short  msgid);
+	void messageEnd();
+	void addUint32( uint32 value );
+	void addInt32( int32 value );
+	void addUint16( uint16 value );
+	void addInt16( int16 value );
+	void addUint8( uint8 value );
+	void addInt8( int8 value );
+	void addBool( bool value );
+	void addFloat( float value );
+	void addString(const char* value );
+
+}
+
+namespace Au
+{
+	bool RegisterModule(int moduleid);
+	bool StartModule(int moduleid, int threadnum=1);
+	void Listen();
+	Au::ConnSocket* ConnectToServer(std::string server_name);
+}
+
+namespace Au
+{
+	unsigned int GetSockfdByServerName(std::string server_name);
+}
+
+namespace Au
+{
+	void RobotStart();
+	void CreateRobots(int robot_num);
+	void CreateOneRobot();
+}
+
+namespace Au
+{
+	int ValidateConnect(unsigned int sockid,const char* accountID);
+}
+
+//db
+namespace Au
+{
+	QueryResult* query( const char* pszCommand ); 
+	bool queryQueue(const char* pszCommand);
+	int queryGetSize(int sizetype);
+	void StartSqlQueue();
+	void EndSqlQueue();
+	void AddSqlQueue(const char* QueryString);
+	QueryResult* GetWorldQueueResult();
+	uint32 getDatateID(const char* strKey);
+
+}
+
+namespace Au
+{
+	void MemcachedAdd(std::string key, char* value, int datalen);
+	void MemcachedSet(std::string key, char *value, int value_len);
+	void MemcachedReplace(std::string key, char *new_value, int value_len);
+	void MemcachedAppend(std::string key, char *value, int value_len);
+	void MemcachedPrepend(std::string key, char *value, int value_len);
+	void MemcachedIncrement(std::string key, int diff);
+	void MemcachedDecrement(std::string key, int diff);
+	void MemcachedDel(std::string key);	
+	std::string MemcachedGet(std::string key, int icount = 1);
+
+}
+
+namespace Au
+{
+	int GetConnSocks();
+}
+
+
+namespace Au
+{
+	int nowTime();
+	int addTimer( int start, int interval, const char* luaFunc,int param1 = 0, int param2 = 0);
+	void stopTimer( int32 timeID );
+
+}
+
+namespace Au
+{
+	int	auRand();
+	int bitAddState(int state, int pos);
+	int bitDelState(int state, int pos);
+	int bitCheckState(int state, int pos);
+}

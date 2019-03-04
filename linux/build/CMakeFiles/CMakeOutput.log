@@ -1,0 +1,243 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:38。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.46
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/svn_project/AuEngine/linux/build/CMakeFiles/3.1.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:39。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\3.1.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.67
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/svn_project/AuEngine/linux/build/CMakeFiles/3.1.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3372135709.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:40。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3372135709.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3372135709.dir\Debug\”。
+  正在创建目录“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3372135709.dir\Debug\cmTryCompileExec3372135709.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3372135709.dir\Debug\\" /Fd"cmTryCompileExec3372135709.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  testCCompiler.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3372135709.dir\Debug\\" /Fd"cmTryCompileExec3372135709.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3372135709.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3372135709.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3372135709.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3372135709.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3372135709.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3372135709.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3372135709.dir\Debug\cmTryCompileExec3372135709.unsuccessfulbuild”。
+  正在对“cmTryCompileExec3372135709.dir\Debug\cmTryCompileExec3372135709.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3372135709.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.52
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1902633196.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:41。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec1902633196.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1902633196.dir\Debug\”。
+  正在创建目录“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1902633196.dir\Debug\cmTryCompileExec1902633196.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1902633196.dir\Debug\\" /Fd"cmTryCompileExec1902633196.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "d:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1902633196.dir\Debug\\" /Fd"cmTryCompileExec1902633196.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "d:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1902633196.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1902633196.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1902633196.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1902633196.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec1902633196.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1902633196.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1902633196.dir\Debug\cmTryCompileExec1902633196.unsuccessfulbuild”。
+  正在对“cmTryCompileExec1902633196.dir\Debug\cmTryCompileExec1902633196.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec1902633196.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.53
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3979642457.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:42。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3979642457.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3979642457.dir\Debug\”。
+  正在创建目录“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3979642457.dir\Debug\cmTryCompileExec3979642457.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3979642457.dir\Debug\\" /Fd"cmTryCompileExec3979642457.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3979642457.dir\Debug\\" /Fd"cmTryCompileExec3979642457.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3979642457.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3979642457.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3979642457.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3979642457.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3979642457.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3979642457.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3979642457.dir\Debug\cmTryCompileExec3979642457.unsuccessfulbuild”。
+  正在对“cmTryCompileExec3979642457.dir\Debug\cmTryCompileExec3979642457.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3979642457.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.54
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3955977115.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.0.30319.17929
+[Microsoft .NET Framework 版本 4.0.30319.18063]
+版权所有(C) Microsoft Corporation 2007。保留所有权利。
+
+生成启动时间为 2015/3/24 星期二 16:07:42。
+节点 1 上的项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3955977115.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3955977115.dir\Debug\”。
+  正在创建目录“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3955977115.dir\Debug\cmTryCompileExec3955977115.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3955977115.dir\Debug\\" /Fd"cmTryCompileExec3955977115.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "d:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3955977115.dir\Debug\\" /Fd"cmTryCompileExec3955977115.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "d:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3955977115.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3955977115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/svn_project/AuEngine/linux/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3955977115.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3955977115.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3955977115.vcxproj -> E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3955977115.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3955977115.dir\Debug\cmTryCompileExec3955977115.unsuccessfulbuild”。
+  正在对“cmTryCompileExec3955977115.dir\Debug\cmTryCompileExec3955977115.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\svn_project\AuEngine\linux\build\CMakeFiles\CMakeTmp\cmTryCompileExec3955977115.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.47
+
+

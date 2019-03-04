@@ -1,0 +1,14 @@
+<root>
+	<msg>
+		<id>2020</id>	<!--It's a test msgid-->
+		<arg>INT32</arg>
+		<function>ResOfAandB_Robot_2020</function>
+	</msg>
+	<!--
+	<msg>
+		<id>1000</id>
+		<arg></arg>
+		<function></function>
+	</msg>
+	-->
+</root>

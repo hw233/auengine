@@ -1,0 +1,39 @@
+<root>
+	<msg>
+		<id>101</id>
+		<arg>UINT32,STRING</arg>
+		<function>onPlayerDisconnect</function>
+	</msg>
+	<msg>
+		<id>102</id>
+		<arg>UINT32,STRING,STRING,UINT8</arg>
+		<function>onPlayerConnect</function>
+	</msg>
+		<msg>
+		<id>1000</id>
+		<arg>UINT8,STRING,STRING</arg>
+		<function>onCreatePlayerFromClient</function>
+	</msg>
+	<msg>
+		<id>1002</id>
+		<arg>UINT8</arg>
+		<function>World_PlayerCtrl_getAllPlayerInfo</function>
+	</msg>
+	<msg>
+		<id>2020</id>
+		<arg>INT32,INT32</arg>
+		<function>TestFunc_MsgID_2020</function>
+	</msg>
+	
+	<msg>
+		<id>2021</id>
+		<arg>UINT32,INT32</arg><!--UINT32 playerid, INT32 the res of A+B-->
+		<function>CalcOFAandB_MsgID_2021</function>
+	</msg>
+	<msg>
+		<id>11112</id>
+		<arg>STRING,STRING,STRING,INT32</arg>
+		<function>TestLuaStringStringFunction</function>
+	</msg>
+</root>
+

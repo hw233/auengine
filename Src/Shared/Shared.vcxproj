@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FD898B2-A665-49D3-8A0C-8930E2A5BCAA}</ProjectGuid>
+    <RootNamespace>Shared</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Dep/lib/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../bin/$(Configuration)/Shared/</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Dep/lib/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../bin/$(Configuration)/Shared/</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">../../Dep/lib</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">../bin/$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;..\..\dep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_TCHAR_DEFINED;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../Src/Shared;..\..\dep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_TCHAR_DEFINED;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\Shared\CrashHandler.cpp" />
+    <ClCompile Include="..\..\Src\Shared\CThreads.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Database\CreateInterface.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Database\Database.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Database\MySQLDatabase.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Log.cpp" />
+    <ClCompile Include="..\..\Src\Shared\MersenneTwister.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\CircularBuffer.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\Socket.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketLinux.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketMgrLinux.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketMgrWin32.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketOpsLinux.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketOpsWin32.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Network\SocketWin32.cpp" />
+    <ClCompile Include="..\..\Src\Shared\PerformanceCounter.cpp" />
+    <ClCompile Include="..\..\Src\Shared\printStackTrace.cpp" />
+    <ClCompile Include="..\..\Src\Shared\StackWalker.cpp" />
+    <ClCompile Include="..\..\Src\Shared\SysInfo.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicBoolean.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicCounter.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicFloat.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\AtomicULong.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\ConditionVariable.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\Mutex.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Threading\ThreadPool.cpp" />
+    <ClCompile Include="..\..\Src\Shared\Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\Shared\auConfig.h" />
+    <ClInclude Include="..\..\Src\Shared\Array.h" />
+    <ClInclude Include="..\..\Src\Shared\CallBack.h" />
+    <ClInclude Include="..\..\Src\Shared\CircularQueue.h" />
+    <ClInclude Include="..\..\Src\Shared\Common.h" />
+    <ClInclude Include="..\..\Src\Shared\CrashHandler.h" />
+    <ClInclude Include="..\..\Src\Shared\CThreads.h" />
+    <ClInclude Include="..\..\Src\Shared\Database\Database.h" />
+    <ClInclude Include="..\..\Src\Shared\Database\DatabaseEnv.h" />
+    <ClInclude Include="..\..\Src\Shared\Database\Field.h" />
+    <ClInclude Include="..\..\Src\Shared\Database\MySQLDatabase.h" />
+    <ClInclude Include="..\..\Src\Shared\Errors.h" />
+    <ClInclude Include="..\..\Src\Shared\Log.h" />
+    <ClInclude Include="..\..\Src\Shared\MersenneTwister.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\CircularBuffer.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\ListenSocketLinux.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\ListenSocketWin32.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\Network.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\Socket.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\SocketDefines.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\SocketMgrLinux.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\SocketMgrWin32.h" />
+    <ClInclude Include="..\..\Src\Shared\Network\SocketOps.h" />
+    <ClInclude Include="..\..\Src\Shared\PerformanceCounter.hpp" />
+    <ClInclude Include="..\..\Src\Shared\printStackTrace.h" />
+    <ClInclude Include="..\..\Src\Shared\Singleton.h" />
+    <ClInclude Include="..\..\Src\Shared\StackWalker.h" />
+    <ClInclude Include="..\..\Src\Shared\SysInfo.hpp" />
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicBoolean.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicCounter.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicFloat.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\AtomicULong.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\ConditionVariable.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\Guard.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\LockedQueue.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\Mutex.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\Queue.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\RWLock.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\Threading.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\ThreadPool.h" />
+    <ClInclude Include="..\..\Src\Shared\Threading\ThreadStarter.h" />
+    <ClInclude Include="..\..\Src\Shared\Util.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿Build started 2015/3/24 星期二 16:11:47.
+     1>Project "E:\svn_project\AuEngine\linux\build\Tinyxml\Tinyxml.vcxproj" on node 5 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\svn_project\AuEngine\linux\build\Tinyxml\Debug\".
+       InitializeBuildStatus:
+         Creating "Tinyxml.dir\Debug\Tinyxml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/svn_project/AuEngine/linux/Tinyxml/CMakeLists.txt
+         CMake does not need to re-run because E:\svn_project\AuEngine\linux\build\Tinyxml\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\svn_project\AuEngine\linux\..\Src\Tinyxml /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D X64 /D _CRT_SECURE_NO_WARNINGS /D HAVE_CONFIG_H /D "CONFDIR=\"\"" /D "PREFIX=\"\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Tinyxml.dir\Debug\\" /Fd"Tinyxml.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt  -bigobj E:\svn_project\AuEngine\Src\Tinyxml\tinystr.cpp E:\svn_project\AuEngine\Src\Tinyxml\tinyxml.cpp E:\svn_project\AuEngine\Src\Tinyxml\tinyxmlerror.cpp E:\svn_project\AuEngine\Src\Tinyxml\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\svn_project\AuEngine\linux\build\Tinyxml\Debug\Tinyxml.lib" /NOLOGO Tinyxml.dir\Debug\tinystr.obj
+         Tinyxml.dir\Debug\tinyxml.obj
+         Tinyxml.dir\Debug\tinyxmlerror.obj
+         Tinyxml.dir\Debug\tinyxmlparser.obj
+         Tinyxml.vcxproj -> E:\svn_project\AuEngine\linux\build\Tinyxml\Debug\Tinyxml.lib
+       FinalizeBuildStatus:
+         Deleting file "Tinyxml.dir\Debug\Tinyxml.unsuccessfulbuild".
+         Touching "Tinyxml.dir\Debug\Tinyxml.lastbuildstate".
+     1>Done Building Project "E:\svn_project\AuEngine\linux\build\Tinyxml\Tinyxml.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.01

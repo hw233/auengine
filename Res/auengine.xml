@@ -1,0 +1,62 @@
+<!--LuaInfo Every Node Should Be Have-->
+<root>
+	<Server>
+		<LuaInfo>
+			<MessageConfigFilePath>./resource/config/messageconfig.xml</MessageConfigFilePath>
+			<EntranceLuaFile>./resource/script/server/main.lua</EntranceLuaFile>
+			<ScriptInitFunc>scriptInit</ScriptInitFunc>
+			<InitEngineFunc>initEngine</InitEngineFunc>
+		</LuaInfo>
+		<NetWorkInfo>
+			<key>1</key>
+			<type>Server</type>
+			<ip>127.0.0.1</ip>
+			<port>7019</port>
+		</NetWorkInfo>
+		<MemcachedInfo>
+			<type>Database</type>
+			<name>UserInfoDatabase</name>
+			<ip>127.0.0.1</ip>
+			<port>11211</port>
+		</MemcachedInfo>
+		<MysqlInfo>
+			<Hostname>172.16.4.194</Hostname>
+			<Username>root</Username>
+			<Password>123456</Password>
+			<Name>mg_order_db</Name>
+			<Port>3306</Port>
+		</MysqlInfo>
+	</Server>
+	
+	<CalcServer>
+		<LuaInfo>
+			<MessageConfigFilePath>./resource/config/calcserverconfig.xml</MessageConfigFilePath>
+			<EntranceLuaFile>./resource/script/calcserver/calcservermain.lua</EntranceLuaFile>
+			<ScriptInitFunc>scriptInit</ScriptInitFunc>
+			<InitEngineFunc>initEngine</InitEngineFunc>
+		</LuaInfo>
+		<NetWorkInfo>
+			<key>2</key>
+			<type>Server</type>
+			<ip>127.0.0.1</ip>
+			<port>8888</port>
+		</NetWorkInfo>
+	</CalcServer>
+	
+	<Robot>
+		<LuaInfo>
+			<MessageConfigFilePath>./resource/config/robotmsgconfig.xml</MessageConfigFilePath>
+			<EntranceLuaFile>./resource/script/robots/robotmain.lua</EntranceLuaFile>
+			<ScriptInitFunc>scriptInit</ScriptInitFunc>
+			<InitEngineFunc>initEngine</InitEngineFunc>
+		</LuaInfo>
+		<NetWorkInfo>
+			<key>111</key>
+			<type>Client</type>
+			<ip>127.0.0.1</ip>
+			<port>8889</port>
+		</NetWorkInfo>
+	</Robot>
+	
+</root>
+

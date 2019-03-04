@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{19AC8F6E-19AA-474B-9184-FEB7B66DE464}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>AuEngineCmake</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\svn_project\AuEngine\linux\build\server\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AuEngineCmake.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AuEngineCmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\svn_project\AuEngine\linux\build\server\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AuEngineCmake.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AuEngineCmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\svn_project\AuEngine\linux\build\server\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AuEngineCmake.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AuEngineCmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\svn_project\AuEngine\linux\build\server\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AuEngineCmake.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AuEngineCmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR="";PREFIX="";CMAKE_INTDIR="Debug";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR=\"\";PREFIX=\"\";CMAKE_INTDIR=\"Debug\";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\Shared\Debug\Shared.lib;..\Lua\Debug\Lua.lib;..\Tinyxml\Debug\Tinyxml.lib;..\Memcache\Debug\MemCache.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/svn_project/AuEngine/linux/build/server/Debug/AuEngineCmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/svn_project/AuEngine/linux/build/server/Debug/AuEngineCmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR="";PREFIX="";CMAKE_INTDIR="Release";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR=\"\";PREFIX=\"\";CMAKE_INTDIR=\"Release\";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\Shared\Release\Shared.lib;..\Lua\Release\Lua.lib;..\Tinyxml\Release\Tinyxml.lib;..\Memcache\Release\MemCache.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/svn_project/AuEngine/linux/build/server/Release/AuEngineCmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/svn_project/AuEngine/linux/build/server/Release/AuEngineCmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR="";PREFIX="";CMAKE_INTDIR="MinSizeRel";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR=\"\";PREFIX=\"\";CMAKE_INTDIR=\"MinSizeRel\";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\Shared\MinSizeRel\Shared.lib;..\Lua\MinSizeRel\Lua.lib;..\Tinyxml\MinSizeRel\Tinyxml.lib;..\Memcache\MinSizeRel\MemCache.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/svn_project/AuEngine/linux/build/server/MinSizeRel/AuEngineCmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/svn_project/AuEngine/linux/build/server/MinSizeRel/AuEngineCmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR="";PREFIX="";CMAKE_INTDIR="RelWithDebInfo";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;X64;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;CONFDIR=\"\";PREFIX=\"\";CMAKE_INTDIR=\"RelWithDebInfo\";AuEngineCmake_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\svn_project\AuEngine\linux\..\Src\Shared;E:\svn_project\AuEngine\linux\..\Src\Common;E:\svn_project\AuEngine\linux\..\Src\Lua\include;E:\svn_project\AuEngine\linux\..\Src\Tinyxml;E:\svn_project\AuEngine\linux\..\Src\memcached;E:\svn_project\AuEngine\linux\..\Dep\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\Shared\RelWithDebInfo\Shared.lib;..\Lua\RelWithDebInfo\Lua.lib;..\Tinyxml\RelWithDebInfo\Tinyxml.lib;..\Memcache\RelWithDebInfo\MemCache.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/svn_project/AuEngine/linux/build/server/RelWithDebInfo/AuEngineCmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/svn_project/AuEngine/linux/build/server/RelWithDebInfo/AuEngineCmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\svn_project\AuEngine\linux\server\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/svn_project/AuEngine/linux/server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"d:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/svn_project/AuEngine/linux -BE:/svn_project/AuEngine/linux/build --check-stamp-file E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/svn_project/AuEngine/linux/server/CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/svn_project/AuEngine/linux/server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"d:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/svn_project/AuEngine/linux -BE:/svn_project/AuEngine/linux/build --check-stamp-file E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/svn_project/AuEngine/linux/server/CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/svn_project/AuEngine/linux/server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"d:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/svn_project/AuEngine/linux -BE:/svn_project/AuEngine/linux/build --check-stamp-file E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/svn_project/AuEngine/linux/server/CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/svn_project/AuEngine/linux/server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"d:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/svn_project/AuEngine/linux -BE:/svn_project/AuEngine/linux/build --check-stamp-file E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/svn_project/AuEngine/linux/server/CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;E:\svn_project\AuEngine\linux\server\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\analytical_param.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\aulistensock.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\basesocket.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\comm_lua_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\config_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\config_struct.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\connsocket.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\doublemsgqueue.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\gameconsole.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\gameconsolethread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\gdata.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\launcher.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\luathread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\lua_engine.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\lua_export.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\lua_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\main.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\memcached_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\memcached_test.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\memcached_thread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\messageconfig_reader.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\message_queue.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\modulebase.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\modulemanager.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\monitor_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\msgpackager.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\msg_manager.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\mysql_module.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\mysql_thread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\netmsg_new.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\oper_member.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\packager_interface.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\param_type_map.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\QueueNlock.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\robots.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\robotthread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\sendmodule.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\sendthread.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\servermap.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\server_launcher.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\sockmgr.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\sockmsgnode.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\testcase.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\timeinterface.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\timer.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\timerinfo.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua.cpp"  />
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua_event.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua_is.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua_map.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua_push.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\svn_project\AuEngine\Src\server\tolua_to.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/svn_project/AuEngine/linux/build/Lua/Lua.vcxproj">
+      <Project>C574DFE2-5790-4980-99D9-51408F04CAA7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/svn_project/AuEngine/linux/build/Memcache/MemCache.vcxproj">
+      <Project>8A423F0D-B141-4CB0-A76F-913F0685145E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/svn_project/AuEngine/linux/build/Shared/Shared.vcxproj">
+      <Project>286780B3-49CB-4CF1-B9F6-112E93A2ED0B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/svn_project/AuEngine/linux/build/Tinyxml/Tinyxml.vcxproj">
+      <Project>6389E821-2793-4C76-90B7-7B873366FB11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/svn_project/AuEngine/linux/build/ZERO_CHECK.vcxproj">
+      <Project>302C8E2B-04CD-460D-A780-8C7803E05506</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

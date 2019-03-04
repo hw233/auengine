@@ -1,0 +1,130 @@
+﻿Build started 2015/3/24 星期二 16:12:54.
+     1>Project "E:\svn_project\AuEngine\linux\build\server\AuEngineCmake.vcxproj" on node 3 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\svn_project\AuEngine\linux\build\server\Debug\".
+       InitializeBuildStatus:
+         Creating "AuEngineCmake.dir\Debug\AuEngineCmake.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/svn_project/AuEngine/linux/server/CMakeLists.txt
+         CMake does not need to re-run because E:\svn_project\AuEngine\linux\build\server\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\svn_project\AuEngine\linux\..\Src\Shared /IE:\svn_project\AuEngine\linux\..\Src\Common /IE:\svn_project\AuEngine\linux\..\Src\Lua\include /IE:\svn_project\AuEngine\linux\..\Src\Tinyxml /IE:\svn_project\AuEngine\linux\..\Src\memcached /IE:\svn_project\AuEngine\linux\..\Dep\include\curl /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D X64 /D _CRT_SECURE_NO_WARNINGS /D HAVE_CONFIG_H /D "CONFDIR=\"\"" /D "PREFIX=\"\"" /D "CMAKE_INTDIR=\"Debug\"" /D AuEngineCmake_EXPORTS /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AuEngineCmake.dir\Debug\\" /Fd"AuEngineCmake.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt  -bigobj E:\svn_project\AuEngine\Src\server\analytical_param.cpp E:\svn_project\AuEngine\Src\server\aulistensock.cpp E:\svn_project\AuEngine\Src\server\basesocket.cpp E:\svn_project\AuEngine\Src\server\comm_lua_module.cpp E:\svn_project\AuEngine\Src\server\config_module.cpp E:\svn_project\AuEngine\Src\server\config_struct.cpp E:\svn_project\AuEngine\Src\server\connsocket.cpp E:\svn_project\AuEngine\Src\server\doublemsgqueue.cpp E:\svn_project\AuEngine\Src\server\gameconsole.cpp E:\svn_project\AuEngine\Src\server\gameconsolethread.cpp E:\svn_project\AuEngine\Src\server\gdata.cpp E:\svn_project\AuEngine\Src\server\launcher.cpp E:\svn_project\AuEngine\Src\server\luathread.cpp E:\svn_project\AuEngine\Src\server\lua_engine.cpp E:\svn_project\AuEngine\Src\server\lua_export.cpp E:\svn_project\AuEngine\Src\server\lua_module.cpp E:\svn_project\AuEngine\Src\server\main.cpp E:\svn_project\AuEngine\Src\server\memcached_module.cpp E:\svn_project\AuEngine\Src\server\memcached_test.cpp E:\svn_project\AuEngine\Src\server\memcached_thread.cpp E:\svn_project\AuEngine\Src\server\messageconfig_reader.cpp E:\svn_project\AuEngine\Src\server\message_queue.cpp E:\svn_project\AuEngine\Src\server\modulebase.cpp E:\svn_project\AuEngine\Src\server\modulemanager.cpp E:\svn_project\AuEngine\Src\server\monitor_module.cpp E:\svn_project\AuEngine\Src\server\msgpackager.cpp E:\svn_project\AuEngine\Src\server\msg_manager.cpp E:\svn_project\AuEngine\Src\server\mysql_module.cpp E:\svn_project\AuEngine\Src\server\mysql_thread.cpp E:\svn_project\AuEngine\Src\server\netmsg_new.cpp E:\svn_project\AuEngine\Src\server\oper_member.cpp E:\svn_project\AuEngine\Src\server\packager_interface.cpp E:\svn_project\AuEngine\Src\server\param_type_map.cpp E:\svn_project\AuEngine\Src\server\QueueNlock.cpp E:\svn_project\AuEngine\Src\server\robots.cpp E:\svn_project\AuEngine\Src\server\robotthread.cpp E:\svn_project\AuEngine\Src\server\sendmodule.cpp E:\svn_project\AuEngine\Src\server\sendthread.cpp E:\svn_project\AuEngine\Src\server\servermap.cpp E:\svn_project\AuEngine\Src\server\server_launcher.cpp E:\svn_project\AuEngine\Src\server\sockmgr.cpp E:\svn_project\AuEngine\Src\server\sockmsgnode.cpp E:\svn_project\AuEngine\Src\server\testcase.cpp E:\svn_project\AuEngine\Src\server\timeinterface.cpp E:\svn_project\AuEngine\Src\server\timer.cpp E:\svn_project\AuEngine\Src\server\timerinfo.cpp E:\svn_project\AuEngine\Src\server\tolua.cpp
+         analytical_param.cpp
+         aulistensock.cpp
+         basesocket.cpp
+         comm_lua_module.cpp
+         config_module.cpp
+         config_struct.cpp
+         connsocket.cpp
+         doublemsgqueue.cpp
+         gameconsole.cpp
+         gameconsolethread.cpp
+         gdata.cpp
+         launcher.cpp
+         luathread.cpp
+         lua_engine.cpp
+         lua_export.cpp
+     1>E:\svn_project\AuEngine\Src\server\lua_export.cpp(802): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         lua_module.cpp
+         main.cpp
+         memcached_module.cpp
+         memcached_test.cpp
+         memcached_thread.cpp
+         Generating Code...
+         Compiling...
+         messageconfig_reader.cpp
+         message_queue.cpp
+         modulebase.cpp
+         modulemanager.cpp
+         monitor_module.cpp
+         msgpackager.cpp
+         msg_manager.cpp
+         mysql_module.cpp
+         mysql_thread.cpp
+         netmsg_new.cpp
+         oper_member.cpp
+         packager_interface.cpp
+         param_type_map.cpp
+         QueueNlock.cpp
+         robots.cpp
+         robotthread.cpp
+         sendmodule.cpp
+         sendthread.cpp
+         servermap.cpp
+         server_launcher.cpp
+         Generating Code...
+         Compiling...
+         sockmgr.cpp
+         sockmsgnode.cpp
+         testcase.cpp
+         timeinterface.cpp
+         timer.cpp
+         timerinfo.cpp
+         tolua.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\svn_project\AuEngine\linux\..\Src\Shared /IE:\svn_project\AuEngine\linux\..\Src\Common /IE:\svn_project\AuEngine\linux\..\Src\Lua\include /IE:\svn_project\AuEngine\linux\..\Src\Tinyxml /IE:\svn_project\AuEngine\linux\..\Src\memcached /IE:\svn_project\AuEngine\linux\..\Dep\include\curl /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D X64 /D _CRT_SECURE_NO_WARNINGS /D HAVE_CONFIG_H /D "CONFDIR=\"\"" /D "PREFIX=\"\"" /D "CMAKE_INTDIR=\"Debug\"" /D AuEngineCmake_EXPORTS /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AuEngineCmake.dir\Debug\\" /Fd"AuEngineCmake.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt  -bigobj E:\svn_project\AuEngine\Src\server\tolua_event.c E:\svn_project\AuEngine\Src\server\tolua_is.c E:\svn_project\AuEngine\Src\server\tolua_map.c E:\svn_project\AuEngine\Src\server\tolua_push.c E:\svn_project\AuEngine\Src\server\tolua_to.c
+         tolua_event.c
+         tolua_is.c
+         tolua_map.c
+         tolua_push.c
+         tolua_to.c
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\svn_project\AuEngine\linux\build\server\Debug\AuEngineCmake.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\Shared\Debug\Shared.lib ..\Lua\Debug\Lua.lib ..\Tinyxml\Debug\Tinyxml.lib ..\Memcache\Debug\MemCache.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/svn_project/AuEngine/linux/build/server/Debug/AuEngineCmake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/svn_project/AuEngine/linux/build/server/Debug/AuEngineCmake.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug AuEngineCmake.dir\Debug\analytical_param.obj
+         AuEngineCmake.dir\Debug\aulistensock.obj
+         AuEngineCmake.dir\Debug\basesocket.obj
+         AuEngineCmake.dir\Debug\comm_lua_module.obj
+         AuEngineCmake.dir\Debug\config_module.obj
+         AuEngineCmake.dir\Debug\config_struct.obj
+         AuEngineCmake.dir\Debug\connsocket.obj
+         AuEngineCmake.dir\Debug\doublemsgqueue.obj
+         AuEngineCmake.dir\Debug\gameconsole.obj
+         AuEngineCmake.dir\Debug\gameconsolethread.obj
+         AuEngineCmake.dir\Debug\gdata.obj
+         AuEngineCmake.dir\Debug\launcher.obj
+         AuEngineCmake.dir\Debug\luathread.obj
+         AuEngineCmake.dir\Debug\lua_engine.obj
+         AuEngineCmake.dir\Debug\lua_export.obj
+         AuEngineCmake.dir\Debug\lua_module.obj
+         AuEngineCmake.dir\Debug\main.obj
+         AuEngineCmake.dir\Debug\memcached_module.obj
+         AuEngineCmake.dir\Debug\memcached_test.obj
+         AuEngineCmake.dir\Debug\memcached_thread.obj
+         AuEngineCmake.dir\Debug\messageconfig_reader.obj
+         AuEngineCmake.dir\Debug\message_queue.obj
+         AuEngineCmake.dir\Debug\modulebase.obj
+         AuEngineCmake.dir\Debug\modulemanager.obj
+         AuEngineCmake.dir\Debug\monitor_module.obj
+         AuEngineCmake.dir\Debug\msgpackager.obj
+         AuEngineCmake.dir\Debug\msg_manager.obj
+         AuEngineCmake.dir\Debug\mysql_module.obj
+         AuEngineCmake.dir\Debug\mysql_thread.obj
+         AuEngineCmake.dir\Debug\netmsg_new.obj
+         AuEngineCmake.dir\Debug\oper_member.obj
+         AuEngineCmake.dir\Debug\packager_interface.obj
+         AuEngineCmake.dir\Debug\param_type_map.obj
+         AuEngineCmake.dir\Debug\QueueNlock.obj
+         AuEngineCmake.dir\Debug\robots.obj
+         AuEngineCmake.dir\Debug\robotthread.obj
+         AuEngineCmake.dir\Debug\sendmodule.obj
+         AuEngineCmake.dir\Debug\sendthread.obj
+         AuEngineCmake.dir\Debug\servermap.obj
+         AuEngineCmake.dir\Debug\server_launcher.obj
+         AuEngineCmake.dir\Debug\sockmgr.obj
+         AuEngineCmake.dir\Debug\sockmsgnode.obj
+         AuEngineCmake.dir\Debug\testcase.obj
+         AuEngineCmake.dir\Debug\timeinterface.obj
+         AuEngineCmake.dir\Debug\timer.obj
+         AuEngineCmake.dir\Debug\timerinfo.obj
+         AuEngineCmake.dir\Debug\tolua.obj
+         AuEngineCmake.dir\Debug\tolua_event.obj
+         AuEngineCmake.dir\Debug\tolua_is.obj
+         AuEngineCmake.dir\Debug\tolua_map.obj
+         AuEngineCmake.dir\Debug\tolua_push.obj
+         AuEngineCmake.dir\Debug\tolua_to.obj
+     1>LINK : fatal error LNK1104: cannot open file '..\Shared\Debug\Shared.lib'
+     1>Done Building Project "E:\svn_project\AuEngine\linux\build\server\AuEngineCmake.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:32.63
