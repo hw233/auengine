@@ -34,6 +34,7 @@ bool CThreadPool::ThreadExit(Thread* t)
 	// we're definitely no longer active
 	m_activeThreads.erase(t);
 
+	// 如果是有线程需要exit 就不能把该线程放到空闲队列中。
 	// do we have to kill off some threads?
 	if(_threadsToExit > 0)
 	{
@@ -338,7 +339,9 @@ Thread* CThreadPool::StartThread(ThreadBase* ExecutionTarget)
 	_mutex.Acquire();
 	t->SetupMutex.Acquire();
 	pthread_create(&target, NULL, &thread_proc, (void*)t);
+	// 控制线程状态
 	t->ControlInterface.Setup(target);
+	// 子线程结束时，资源自动回收
 	pthread_detach(target);
 	t->SetupMutex.Release();
 	_mutex.Release();

@@ -68,12 +68,14 @@ class ThreadController
 		void Suspend()
 		{
 			ASSERT(pthread_equal(pthread_self(), handle));
+			// 等待信号量，如果信号量的值大于0， 将信号量的值减 1，如果信号量的值为0， 则阻塞 
 			sem_wait(&sem);
 		}
 
 		void Resume()
 		{
 			ASSERT(!pthread_equal(pthread_self(), handle));
+			// 释放信号量，使得信号量的值加1
 			sem_post(&sem);
 		}
 
@@ -113,6 +115,7 @@ class ThreadController
 		}
 		void Resume()
 		{
+			// pthread_cond_signal函数的作用是发送一个信号给另外一个正在处于阻塞等待状态的线程,使其脱离阻塞状态,继续执行.如果没有线程处在阻塞等待状态,pthread_cond_signal也会成功返回。
 			pthread_cond_signal(&cond);
 		}
 		void Join()
